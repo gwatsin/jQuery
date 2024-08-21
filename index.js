@@ -1,4 +1,3 @@
-
-$("h1").text("Bye");
-
-$("button").html("<em>Hey</em>");
+$("input").keydown(function(event){
+    $("h1").html(event.key);
+})
